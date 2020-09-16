@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char ch;
+	ch=cin.get(); // Use to read single character including whitespaces
+	while(ch!='.')
+	{
+		cout<<ch;
+		ch=cin.get();
+	}
+  return 0;
+}
